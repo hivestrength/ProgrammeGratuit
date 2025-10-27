@@ -10,11 +10,11 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.9);
+  background: linear-gradient(135deg, #0d0d0d, #1a1a1a); /* même fond que le reste */
   display: flex;
-  justify-content: center;
+  justify-content: flex-start; /* aligné à gauche */
   align-items: center;
-  padding: 15px 0;
+  padding: 15px 5%; /* alignement avec la partie gauche du contenu */
   border-bottom: 1px solid #333;
   z-index: 10;
 }
