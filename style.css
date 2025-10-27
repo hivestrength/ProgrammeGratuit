@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
 body {
   margin: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   background: linear-gradient(135deg, #0d0d0d, #1a1a1a);
   color: white;
 }
