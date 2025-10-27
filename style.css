@@ -25,7 +25,7 @@ header {
 }
 
 .logo {
-  height: 80px;
+  height: 110px;
 }
 
 h1 {
@@ -34,11 +34,11 @@ h1 {
 }
 
 main {
-  margin-top: 140px;
+  margin-top: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 40px 5%;
+  padding: 20px 5%;
   min-height: 70vh;
 }
 
@@ -77,7 +77,8 @@ label {
 }
 
 input {
-  width: 100%;
+  width: 90%;
+  max-width: 320px;
   padding: 10px;
   margin-top: 5px;
   border-radius: 8px;
@@ -104,7 +105,7 @@ button:hover {
 
 footer {
   text-align: center;
-  padding: 15px;
+  padding: 5px;
   font-size: 0.85rem;
   border-top: 1px solid #333;
 }
@@ -125,6 +126,6 @@ footer a {
     font-size: 1.5rem;
   }
   .logo {
-    height: 60px;
+    height: 80px;
   }
 }
