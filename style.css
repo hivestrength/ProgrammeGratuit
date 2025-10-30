@@ -30,6 +30,47 @@ header {
   max-height: 20vh; /* évite que ça déborde sur les petits écrans */
 }
 
+/* FAQ Section */
+.faq-section {
+  margin-top: 60px;
+  background: #0d0d0d;
+  padding: 40px;
+  border-radius: 12px;
+  width: 100%;
+}
+
+.faq-section h2 {
+  text-align: center;
+  color: #d4af37;
+  margin-bottom: 30px;
+  font-size: 26px;
+}
+
+.faq-item {
+  margin-bottom: 15px;
+  border-bottom: 1px solid #333;
+  padding-bottom: 10px;
+}
+
+.faq-question {
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: none;
+  font-size: 18px;
+  color: #fff;
+  padding: 10px 0;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.faq-answer {
+  display: none;
+  padding: 5px 0;
+  color: #ccc;
+  font-size: 16px;
+}
+
 h1 {
   font-size: 2rem;
   letter-spacing: 2px;
